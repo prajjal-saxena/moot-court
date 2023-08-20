@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+      <div class="coverhome">
+         <div class="container">
+             <div class="coverhomecontent">
+                <h1>Manav Sthali School</h1>
+                <div>
+                    <p style="text-align: center;margin-top: 30px;">We present to you,Dr. V. K. BHATNAGAR MEMORIAL IInd Inter-School Moot Court Competitionwith its Second and National Edition</p>
+                </div>
+             </div>
+         </div>
+      </div>
+
+      <div class="container timer">
+        <p id="demo"></p>
+      </div>
+
+      <section class="principle-content">
+         <div class="container">
+             <div class="principle1">
+                <div class="principle-content1">
+                    <img src="./img/homePage/principle.png" alt="">
+                </div>
+                <div class="principle-content1 principle-content2">
+                    <p>Manav Sthali School was established in 1957, and has a 66 year old heritage of provide holistic learning Focused on experiential learning and community connect, with a commitment to ensure that our students are well-prepared to become adept and socially conscious individuals. As part of a student-centric institution, its prime objective is to provide holistic learning, support innovations and accelerate growth opportunity all while providing value based system.</p>
+                    <p>Education is not merely a static endpoint, but rather a dynamic and ongoing process of growth and learning. It emphasizes that education goes beyond the acquisition of facts and information; it involves a continuous quest for understanding, self-discovery, critical thinking and with this Ethos, Manav Sthali School proudly presents to you Dr. V. K. Bhatnagar Memorial IInd Inter School Moot Court Competition on 07.10.2023.</p>
+                    <p>The Moot Court provides a unique opportunity for students to gain insights into the legal profession while enhancing their legal acumen. Through this platform, young minds are challenged to explore and discover new perspectives, principles, and ideologies related to the field of law.</p>
+                    <p>And with this in mind, I am proud to present an enriching and engaging educational experience that prepares students for the complexities of the legal field while fostering personal and intellectual growth</p>
+                    <p>Dipti A. Bhatnagar</p>
+                </div>
+             </div>
+         </div>
+      </section>
+       
+      <section class="benefits">
+         <div class="container">
+             <div class="principle1 benefit-content">
+                 <div class="principle-content1 benefit1">
+                     <h2>Benefits of Participating in a Moot Court at School Level:</h2>
+                     <p><strong>Real-World Experience: </strong>Students get a taste of what it's like to work in the legal profession by simulating court proceedings and arguing cases.</p>
+                     <p><strong>Critical Thinking: </strong>Engaging in mock legal arguments requires students to think critically, analyze complex issues, and formulate well-structured arguments.</p>
+                     <p><strong>Research Skills: </strong>Students develop strong research skills as they delve into legal cases, statutes, and precedents to support their arguments.</p>
+                     <p><strong>Public Speaking: </strong>Presenting their arguments in front of judges and peers hones students' public speaking and presentation skills.</p>
+                     <p><strong>Legal Acumen: </strong>Participants deepen their understanding of legal concepts and principles, which can be valuable for those considering a future in law.</p>
+                     <p><strong>Perspective Exploration: </strong>By taking on various roles and arguing different sides of a case, students broaden their perspectives and learn to appreciate diverse viewpoints.</p>
+                     <p><strong>Confidence Building: </strong>Successfully presenting arguments and defending positions can boost students' confidence and self-assurance.</p>
+                     <p><strong>Teamwork:</strong>Many Moot Court competitions involve teamwork, fostering collaboration and interpersonal skills.</p>
+                     <p><strong>Networking: </strong>Students have the opportunity to connect with legal professionals, judges, and peers, potentially expanding their professional networks.</p>
+                     <p><strong>Experiential Learning: </strong>The immersive nature of Moot Court allows students to apply theoretical knowledge to practical scenarios.</p>
+                 </div>
+                 <div class="principle-content1 benefit2">
+                     <img src="./img/homePage/benefit.jpg" alt="">
+                 </div>
+             </div>
+         </div>
+      </section>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+      <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Oct 7, 2023 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+            
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+            
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+          // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+            
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+    
+    </body>
+</html>

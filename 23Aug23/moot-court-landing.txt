@@ -1,0 +1,20 @@
+&nbsp;
+<div class="container bgcover">
+<div class="logo-cover-content">
+<div class="content1"><img src="https://manavsthalischool.com/wp-content/uploads/2023/08/LOGO_BY.jpg" alt="" width="100%"></div>
+<div class="content2">
+<div class="btn-content btn1"><a href="https://manavsthalischool.com/wp-content/uploads/2023/08/moot-court-2023-October-7TH-OCT.pdf" target="_blank" rel="noopener"> Brochure</a>
+<i class="fa fa-info" aria-hidden="true"></i></div>
+<div class="btn-content btn2"><a href="https://manavsthalischool.com/moot-court-home-page/" target="_blank" rel="noopener">Website</a>
+<i class="fa fa-globe" aria-hidden="true"></i></div>
+<div class="btn-content btn3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdo3pCwqkPB3-PuCSBmSF-RtxRYGdIl-fyGEwAdzOWMBhnlYA/viewform" target="_blank" rel="noopener">Registrations</a>
+<i class="fa fa-external-link" aria-hidden="true"></i></div>
+<div class="btn-content btn4"><a href="https://instagram.com/mss_bar_association?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener">Instagram</a>
+<i class="fa fa-instagram" aria-hidden="true"></i></div>
+<div class="btn-content btn5"><a href="mailto:mss.barassociation@gmail.com">Queries (Email)</a>
+<i class="fa fa-envelope" aria-hidden="true"></i></div>
+<div class="btn-content btn6"><a href="https://goo.gl/maps/xUxDsKBvzdjNiiBXA" target="_blank" rel="noopener">Location</a>
+<i class="fa fa-map-marker" aria-hidden="true"></i></div>
+</div>
+</div>
+</div>

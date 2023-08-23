@@ -1,0 +1,598 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Rubik:wght@300&display=swap');
+
+.page-id-8567 .entry-content p,.page-id-8567 .entry-content h1,.page-id-8567 .entry-content h2, .page-id-8567 .entry-content h3,
+.page-id-8567 .entry-content h4, .page-id-8567 .entry-content ul,.page-id-8567 .entry-content li, .page-id-8567 .entry-content td,
+.page-id-8567 .entry-content tr{
+   font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
+}
+#mss_bannertwo img {
+    border: 1px solid #F1F1F1;
+    height: 100%;
+    width: 100%;
+}
+
+.logo-cover-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 20px;
+    flex-wrap: wrap;
+}
+
+
+.content1{
+    width: 48%;
+}
+.content1 img{
+    border-radius: 50px 0 20px 0;
+}
+
+.content2 {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content2 a{
+    width: 100%;
+    text-decoration: none;
+}
+.btn-content {
+    width: 60%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+    padding: 30px 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px 3px 24px 3px;
+    transition: transform 600ms ease-in-out, background 600ms ease-in-out;
+    background: #D5A51F;
+    color: #f1f1f1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 26px!important;
+}
+.btn-content:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    background: #0d0e12;
+    color: #f1f1f1;
+}
+.fa{
+    font-size: 28px!important;
+    font-weight: 700!important;
+}
+.btn-content a{
+    color: #f1f1f1!important;
+}
+
+@media (max-width: 800px) {
+     .content1, .content2{
+         width: 100%;
+     }
+     .content1 img{
+        width: 100%;
+        margin-bottom: 10px;
+     }
+     .btn-content{
+        margin: 0;
+        width: 95%;
+        font-size: 13px;
+     }
+     .content2 a{
+        margin-bottom: 20px;
+     }
+     .content2{
+        background: #f1f1f1;
+        padding: 27px 10px;
+        border-radius: 8px;
+     }
+}
+
+/*HOME PAGE CSS*/
+h1, h2{
+    font-size: 35px;
+}
+.mbtm{
+    margin: 100px 0px;
+}
+.page-id-8567 .backbg{
+    background: #0000007a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    top: 98px;
+}
+.page-id-8567 .backbg div p{
+    padding: 0 20px 0 20px;
+}
+.page-id-8567 .description1 .entry-content .coverhome{
+   
+    width: 100%;
+    height: 500px;
+    color: #f1f1f1;
+}
+.coverhomecontent {
+    height: 500px;
+    width: 100%;
+}
+.coverhomecontent {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ background-image: linear-gradient(to right, #0000007a,
+    #0000006e) , url('https://manavsthalischool.com/wp-content/uploads/2023/08/IMG_2647-scaled.jpg')!important;
+    	    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f1f1f1;   
+}
+.coverhomecontent h1 {
+    position: relative;
+}
+.coverhomecontent h1::after {
+ content: '';
+        position: absolute!important;
+    border: 1px solid white!important;
+    height: 1px!important;
+    width: 134px!important;
+    bottom: -18px!important;
+    left: 30px!important;
+    border-radius: 100%!important;
+}
+#demo{
+    width: 40%;
+    text-align: center!important;
+    margin: auto!important;
+    position: relative;
+    bottom: 23px;
+    background: #f1f1f1;
+    padding: 30px!important;
+    border-radius: 13px;
+    font-weight: 900;
+    font-size: 40px!important;
+    color: #51310d;
+    transform: scale(1);
+    transition: transform 600ms ease-in-out;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+#demo:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+.principle1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.principle-content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+}
+.principle-content1 img{
+    width: 100%;
+}
+.where {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.where1 {
+    display: flex;
+    justify-content: center;
+    background: #5C4F47;
+    border-radius: 100%;
+    padding: 24px;
+    width: 6%;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+    margin-right: 26px;
+    height: 24px;
+}
+.where1 i {
+    font-size: 30px!important;
+}
+.where2 {
+    width: 74%;
+}
+button.btn-event {
+    background: #5C4F47;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    border-radius: 40px;
+}
+.page-id-8567 .entry-content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%!important;
+    border: 1px solid #ddd;
+  }
+  .page-id-8567 .important-dates .important-date-box table, .schedule-competition .competition-1 table{
+      width: 100%!important;
+  }
+  .page-id-8567 .principle-content1 img{
+      border-radius: 89px 20px 89px 20px;
+  }
+  .page-id-8567 .box img{
+      border-radius: 10px 10px 10px 10px;
+  }
+  .page-id-8567 .entry-content th, .page-id-8567 .entry-content td {
+    text-align: left;
+    padding: 8px;
+  }
+  .venue-row ,  .venue-row td{
+    border: 1px solid #000;
+  }  
+  .important-dates{
+      background: url('https://manavsthalischool.com/wp-content/uploads/2023/08/IMG_2443-scaled.jpg')no-repeat center center/cover;
+      padding: 36px 0px;
+      background-attachment: fixed;
+      background-position: top;
+		background-size: cover;
+  }
+ 
+  .event-highlight{
+     background: url('https://manavsthalischool.com/wp-content/uploads/2023/08/IMG_2473-scaled.jpg') no-repeat center center/cover;
+     background-attachment: fixed;
+     background-position: top;
+  }
+  .highlight-section {
+    background: #0000005c;
+    color: #f1f1f1;
+    padding: 30px 30px;
+    padding: 36px 28px;
+
+  }
+  .president-section{
+     background: url('https://manavsthalischool.com/wp-content/uploads/2023/08/learn.jpg') no-repeat center center/cover;
+  }
+  .president-content {
+    border-radius: 62px 10px 171px 10px;
+  }
+ .important-date-box {
+     background: #00000080; 
+    color: #f1f1f1;
+    padding: 30px 30px;
+  }
+  .location {
+    /* background: #0000119e; */
+     padding: 30px 0px;
+   }
+   .important-all{
+      background: #0000119e; 
+     
+   }
+   .social{
+		 display: flex;
+    justify-content: center;
+   }
+   span.social1 a{
+
+    color: #f1f1f1!important;
+
+   }
+   span.social1 a i{
+     background: #1877F2;
+     padding: 15px 15px;
+   }
+   .social2 a i{
+     background: rgb(225, 48, 108)!important;
+   }
+ .past{
+     display: flex;
+     justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .box{
+     width: 23%;
+   }
+   .box img{
+     width: 100%;
+   }
+   .page-id-8567 .important-dates .important-date-box table .venue-row td{
+       border:1px solid #f1f1f1;
+   }
+   .page-id-8567  p, .page-id-8567 ul li , .page-id-8567 table tr td{
+       font-size: 16px!important;
+       line-height: 22px!important;
+   }
+   .page-id-8567 .coverhome .coverhomecontent p{
+       font-size : 16px!important;
+   }
+   .page-id-8567 .coverhome .coverhomecontent h1{
+       font-size: 40px!important;
+   }
+   .page-id-8567 .benefits .benefit-content .benefit1 .where-when img{
+       border-radius: 0px!important;
+   }
+   .page-id-8567 .map1{
+       width: 45%!important;
+       background: transparent!important;
+       color: #f1f1f1;
+   }
+   .page-id-8567 .map1 p{
+       padding: 18px 28px!important;
+   }
+   
+   .page-id-8567 .map2{
+       padding-right: 18px!important;
+       
+   }
+   .page-id-8567 .where2{
+       padding-top: 22px;
+   }
+   .judges-highlight{
+       background: url('https://manavsthalischool.com/wp-content/uploads/2023/08/IMG_2644-scaled.jpg') no-repeat center center/cover;
+       background-position: top;
+   }
+   .judges-section{
+       background: #0000008c;
+   }
+   .page-id-8567 .map2 img{
+       width: 100%; 
+   }
+   .page-id-8567 .backbg p{
+       margin-top: 30px;
+   }
+   .footer-bar{
+       display : flex;
+       justify-content: center;
+   }
+  
+   .reachus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.map-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.mappy {
+    width: 54%;
+    height: 251px;
+}
+.mappy iframe{
+    height: 100%;
+}
+.socialmedia{
+    display : flex;
+}
+.socialmedia a{
+    width: 8%;
+    margin-right: 10px;
+}
+.socialmedia a img{
+    width:100%;
+}
+ @media (max-width: 800px){
+     .mappy{
+         width: 100%;
+     }
+     .socialmedia a{
+         width: 10%;
+     }
+      #demo{
+         width: 91%;
+      }
+      .page-id-8567 .backbg p{
+       margin-top: 0px;
+   }
+      .page-id-8567 .coverhome .coverhomecontent p{
+          font-size: 38px!important;
+          line-height: 1!important;
+          letter-spacing: 4px;
+      }
+	 .where1{
+		 width: 3%;
+	 }
+	 .page-id-8567 .where2{
+       padding-top: 0px;
+     }
+      .principle-content1{
+        width: 100%;
+        
+      }
+     .page-id-8567 .principle-content .principle1 .principle-content1 p
+      {
+         font-size: 38px!important;
+         line-height: 2!important;
+     }
+     .page-id-8567 .benefits .benefit-content .benefit1 p, .page-id-8567  .entry-content p{
+         font-size : 38px!important;
+         line-height: 2!important;
+     }
+      .page-id-8567 .benefits .benefit-content .benefit1 .where-when .where  .where2 h4{
+          font-size : 40px!important;
+      }
+      .page-id-8567 .benefits .benefit-content .benefit1 .where-when .where  .where1{
+          width: 5%;
+      }
+      .page-id-8567 .benefits .benefit-content .benefit1 .where-when p button.btn-event{
+            font-size: 38px!important;
+            margin-bottom: 30px;
+      }
+      .page-id-8567 .important-dates .important-date-box table .venue-row td{
+           font-size: 38px!important;
+           line-height: 1!important;
+               border: 1px solid #f1f1f1;
+      }
+       .page-id-8567 .important-dates .important-date-box p, .page-id-8567 .event-highlight .highlight-section ul li,
+       .past-event .past-content .past-content2 p, .page-id-8567 .past-event .past-content ul li, .page-id-8567 .important-dates .important-date-box ul li{
+           font-size: 38px!important;
+           line-height: 2!important;
+       
+       }
+       .page-id-8567 .schedule-competition .competition-1 table tr td, .page-id-8567 .schedule-competition .competition-1 p{
+              font-size: 38px!important;
+           line-height: 1!important;
+       }
+       .page-id-8567 .schedule-competition .competition-1 h2, .page-id-8567 .event-highlight .highlight-section h2, .page-id-8567 .past-event h1{
+           font-size: 40px!important;
+       }
+       .important-all {
+           flex-direction: column;
+       }
+       .page-id-8567 .map1, .page-id-8567 .map2{
+          width: 100%!important;
+       }
+       .page-id-8567 .map1 p, .page-id-8567 .map2 p{
+           font-size: 38px!important;
+           line-height: 51px!important;
+       }
+       .page-id-8567 .map1 ul li{
+           font-size: 38px!important;
+           line-height: 40px!important;
+       }
+       .page-id-8567 #paragen{
+       font-size: 38px!important;
+    line-height: 2!important;
+    letter-spacing: 1px;
+       }
+       .page-id-8567 .benefits .benefit-content .benefit1 .where-when .where .where1{
+           height: 63px;
+       }
+       .page-id-8567 .map-address{
+           width:55%;
+       }
+   }
+
+/*MANASTHA PAGE*/
+
+.bgcover{
+    background: url('https://manavsthalischool.com/wp-content/uploads/2023/08/Group-111.png')no-repeat center center/cover!important;
+}
+
+#lbCenter{z-index:9999999;}
+.ngg-album{border:none !important;}
+body.page-id-7253 .ngg-album{width:30%;float: left;margin: 1%;}
+
+body.page-id-7253 .ngg-albumtitle{font-size:14px; text-align:center; margin-right:65px;}
+
+.boder tr th {
+    border: 1px solid;text-align: center;}
+.boder tr td {border: 1px solid; 
+	 text-align: center;} 
+
+.page-id-8158 #mss_bannertwo img{width:724px!important;}
+
+
+#mss_bannertwo img{
+	width : 100%;
+	height : 100%;
+}
+.bgall{
+    background: url('https://manavsthalischool.com/wp-content/uploads/2023/08/Group-111.png')no-repeat center center/cover;
+}
+.logo-cover-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 20px;
+	flex-wrap: wrap;
+}
+
+.content1{
+    width: 48%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content1 img{
+    border-radius: 50px 0 20px 0;
+}
+
+.content2 {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content2 a{
+    width: 100%;
+    text-decoration: none;
+	  color: #f1f1f1!important;
+}
+.btn-content {
+	cursor: grab;
+    width: 60%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+    padding: 30px 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px 3px 24px 3px;
+        transition: transform 600ms ease-in-out, background 600ms ease-in-out;
+    background: #D5A51F;
+    color: #f1f1f1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+	margin-bottom: 25px;
+}
+.btn-content:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+	  background: #0d0e12;
+}
+.fa{
+    font-size: 28px!important;
+    font-weight: 700!important;
+}
+
+.page-id-8502 .entry-content .btn-content a{
+    font-size: 28px!important;
+}
+
+@media (max-width: 800px) {
+     .content1, .content2{
+         width: 100%;
+     }
+     .content1 img{
+        width: 100%;
+        margin-bottom: 10px;
+     }
+     .btn-content{
+        margin: 0;
+			 margin-bottom: 20px;
+        width: 94%;
+	
+     }
+
+     .content2 a{
+        margin-bottom: 20px;
+			 color: #f1f1f1!important;
+     }
+     .content2{
+        background: #f1f1f1;
+        padding: 27px 10px;
+        border-radius: 8px;
+     }
+    
+     .page-id-8502 .entry-content .bgcover .content2 .btn-content a{
+            font-size: 40px!important;
+        }
+}
+
+
+
+
+
+
+
+
+</style>
